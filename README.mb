@@ -1,0 +1,43 @@
+As a board game player,
+So that I can play a game
+I want to be able to roll a dice
+
+player
+game - to play the game, the dice must roll
+roll
+
+As a board game player,
+So that I know how many steps I should move
+Rolling a dice should give me a number between 1 and 6
+
+player
+dice - the result of rollng the dice must be between 1 and 6
+rolling
+
+As a dice app developer,
+So that I give players a good game experience
+If it is not already random, I want the dice roll to be randomly picked
+
+developer
+dice - make dice roll
+roll - maker roll random
+
+As a board game player,
+So that I can play many types of games
+I want to be able to roll any number of dice at the same time
+
+player
+dice - any amount of dice
+roll_result - roll random number * number of dice
+
+As a board game player,
+So that I can keep track of past and previous rolls
+I want to record each dice roll
+
+player
+roll_result - record dice rolls
+
+
+As a board game player,
+So that I know what my score is after I have rolled several dice
+I want to be able to get my current score
